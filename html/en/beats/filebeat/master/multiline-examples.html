@@ -76,13 +76,13 @@
 	   
 
     <!-- css -->
-    <link href="https://static-www.elastic.co/static/css/main.css?q=403" rel="stylesheet">
+    <link href="https://stag-static-www.elastic.co/static/css/main.css?q=221" rel="stylesheet">
     
     
 
-    <script src="https://static-www.elastic.co/static/js/jquery.min.js?q=403"></script>
-    <script src="https://static-www.elastic.co/static/js/bootstrap.min.js?q=403"></script>
-    <script src="https://static-www.elastic.co/static/js/jquery.cookie.js?q=403"></script>
+    <script src="https://stag-static-www.elastic.co/static/js/jquery.min.js?q=221"></script>
+    <script src="https://stag-static-www.elastic.co/static/js/bootstrap.min.js?q=221"></script>
+    <script src="https://stag-static-www.elastic.co/static/js/jquery.cookie.js?q=221"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -127,7 +127,7 @@
 
 
 	
-	<link type="text/css" rel="stylesheet" href="https://static-www.elastic.co/static/css/guide.css?q=403" />
+	<link type="text/css" rel="stylesheet" href="https://stag-static-www.elastic.co/static/css/guide.css?q=221" />
 
 
   
@@ -204,7 +204,7 @@
           <div class="navbar-brand" id="elastic">
             <h1>
               <a class="logo-m hidden-sm hidden-md hidden-lg" href="/">
-                <img src="https://static-www.elastic.co/assets/bltd5ac38b4549d53de/elastic-logo-mobile (1).svg?q=403" alt="elastic-logo-mobile">
+                <img src="https://stag-static-www.elastic.co/assets/bltd5ac38b4549d53de/elastic-logo-mobile (1).svg?q=221" alt="elastic-logo-mobile">
               </a>
             </h1>
           </div>
@@ -270,7 +270,7 @@
       <div class="navbar-brand hidden-xs" id="elastic">
         <h1>
           <a class="hidden-xs" id="elastic-logo" href="/">
-            <img src="https://static-www.elastic.co/assets/blt6050efb80ceabd47/elastic-logo (2).svg?q=403" alt="elastic-logo">
+            <img src="https://stag-static-www.elastic.co/assets/blt6050efb80ceabd47/elastic-logo (2).svg?q=221" alt="elastic-logo">
           </a>
         </h1>
       </div>
@@ -420,24 +420,24 @@
   </div>
 </div>
 </header>
-<link rel="stylesheet" type="text/css" href="https://static-www.elastic.co/static/css/horizon-swiper.min.css?q=403">
+<link rel="stylesheet" type="text/css" href="https://stag-static-www.elastic.co/static/css/horizon-swiper.min.css?q=221">
 <style> 
     
       .m-shortcuts li a.m-search {
-        background: url("https://static-www.elastic.co/assets/blt7b9c4fe6528dc4ef/m-search-icon.png?q=403") no-repeat scroll center center rgba(0, 0, 0, 0);
+        background: url("https://stag-static-www.elastic.co/assets/blt7b9c4fe6528dc4ef/m-search-icon.png?q=221") no-repeat scroll center center rgba(0, 0, 0, 0);
         background-size: contain;}
     
       .m-shortcuts li a.m-docs {
-        background: url("https://static-www.elastic.co/assets/blt44d8b7530a76d01c/m-guide-icon.png?q=403") no-repeat scroll center center rgba(0, 0, 0, 0);
+        background: url("https://stag-static-www.elastic.co/assets/blt44d8b7530a76d01c/m-guide-icon.png?q=221") no-repeat scroll center center rgba(0, 0, 0, 0);
         background-size: contain;}
     
       .m-shortcuts li a.m-contact {
-        background: url("https://static-www.elastic.co/assets/blt878040795c9d083b/m-contact-icon.png?q=403") no-repeat scroll center center rgba(0, 0, 0, 0);
+        background: url("https://stag-static-www.elastic.co/assets/blt878040795c9d083b/m-contact-icon.png?q=221") no-repeat scroll center center rgba(0, 0, 0, 0);
         background-size: contain;}
     
     
 </style>
-<script type="text/javascript" src="https://static-www.elastic.co/static/js/horizon-swiper.min.js?q=403"></script>
+<script type="text/javascript" src="https://stag-static-www.elastic.co/static/js/horizon-swiper.min.js?q=221"></script>
 <script type="text/javascript">
   $(document).ready( function(){
     // if($('#scrollable-pane li').length > 3){
@@ -605,11 +605,11 @@ Not what you want? See the
            
           <a href="_examples_of_multiline_configuration.html">Examples of multiline configuration
                »
-            </a></span></div><div class="chapter"><div class="titlepage"><div><div><h2 class="title"><a id="multiline-examples"></a>Manage multiline messages<a href="https://github.com/elastic/beats/edit/master/filebeat/docs/multiline.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h2></div></div></div><p>The files harvested by Filebeat may contain messages that span multiple lines of text. In order to correctly handle
+            </a></span></div><div class="chapter"><div class="titlepage"><div><div><h2 class="title"><a id="multiline-examples"></a>Manage multiline messages<a href="https://esdocs@github.com/elastic/beats/edit/master/filebeat/docs/multiline.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h2></div></div></div><p>The files harvested by Filebeat may contain messages that span multiple lines of text. In order to correctly handle
 these multiline events, you need to configure <code class="literal">multiline</code> settings in the <code class="literal">filebeat.yml</code> file to specify which
 lines are part of a single event.</p><div class="important admon"><div class="icon"><img alt="Important" src="images/icons/important.png" /></div><div class="admon_content"><p>If you are sending multiline events to Logstash, use the options described here to handle multiline events
 before sending the event data to Logstash. Trying to implement multiline event handling in Logstash (for example, by
-using the Logstash multiline codec) may result in the mixing of streams and corrupted data.</p></div></div><p>Also read <a class="xref" href="yaml-tips.html" title="YAML tips and gotchas"><em>YAML tips and gotchas</em></a> and <a class="xref" href="regexp-support.html" title="Regular expression support"><em>Regular expression support</em></a> to avoid common mistakes.</p><h3><a id="multiline-options"></a>Configuration options<a href="https://github.com/elastic/beats/edit/master/filebeat/docs/multiline.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3><p>You can specify the following options in the <code class="literal">filebeat.prospectors</code> section of the <code class="literal">filebeat.yml</code> config file:</p><h4><a id="multiline"></a><code class="literal">multiline</code><a href="https://github.com/elastic/beats/edit/master/filebeat/docs/multiline.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h4><p>Options that control how Filebeat deals with log messages that span multiple lines. Multiline messages are common in files that contain Java stack traces.</p><p>The following example shows how to configure Filebeat to handle a multiline message where the first line of the message begins with a bracket (<code class="literal">[</code>).</p><div class="pre_wrapper"><pre class="programlisting prettyprint lang-yaml">multiline.pattern: '^\['
+using the Logstash multiline codec) may result in the mixing of streams and corrupted data.</p></div></div><p>Also read <a class="xref" href="yaml-tips.html" title="YAML tips and gotchas"><em>YAML tips and gotchas</em></a> and <a class="xref" href="regexp-support.html" title="Regular expression support"><em>Regular expression support</em></a> to avoid common mistakes.</p><h3><a id="multiline-options"></a>Configuration options<a href="https://esdocs@github.com/elastic/beats/edit/master/filebeat/docs/multiline.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3><p>You can specify the following options in the <code class="literal">filebeat.prospectors</code> section of the <code class="literal">filebeat.yml</code> config file:</p><h4><a id="multiline"></a><code class="literal">multiline</code><a href="https://esdocs@github.com/elastic/beats/edit/master/filebeat/docs/multiline.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h4><p>Options that control how Filebeat deals with log messages that span multiple lines. Multiline messages are common in files that contain Java stack traces.</p><p>The following example shows how to configure Filebeat to handle a multiline message where the first line of the message begins with a bracket (<code class="literal">[</code>).</p><div class="pre_wrapper"><pre class="programlisting prettyprint lang-yaml">multiline.pattern: '^\['
 multiline.negate: true
 multiline.match: after</pre></div><p>Filebeat takes all the lines that do not start with <code class="literal">[</code> and combines them with the previous line that does. For example, you could use this configuration to join the following lines of a multiline message into a single event:</p><div class="pre_wrapper"><pre class="programlisting prettyprint lang-sh">[beat-logstash-some-name-832-2015.11.28] IndexNotFoundException[no such index]
     at org.elasticsearch.cluster.metadata.IndexNameExpressionResolver$WildcardExpressionResolver.resolve(IndexNameExpressionResolver.java:566)
@@ -1001,38 +1001,38 @@ After the specified timeout, Filebeat sends the multiline event even if no new p
 <style type="text/css">
 	
     
-		.facebook{background:url("https://static-www.elastic.co/assets/bltf546ff2e0a8f2de5/facebook.svg?q=403") no-repeat;}
+		.facebook{background:url("https://stag-static-www.elastic.co/assets/bltf546ff2e0a8f2de5/facebook.svg?q=221") no-repeat;}
     
     
-      .facebook:hover {background:url("https://static-www.elastic.co/assets/bltc24cf11c714ecfc4/facebook-hover.svg?q=403")}		
-    
-	
-    
-		.twitter{background:url("https://static-www.elastic.co/assets/bltdd9556d6b24e2b85/twitter.svg?q=403") no-repeat;}
-    
-    
-      .twitter:hover {background:url("https://static-www.elastic.co/assets/blt90b0372cc07a54d3/twitter-hover.svg?q=403")}		
+      .facebook:hover {background:url("https://stag-static-www.elastic.co/assets/bltc24cf11c714ecfc4/facebook-hover.svg?q=221")}		
     
 	
     
-		.linkedin{background:url("https://static-www.elastic.co/assets/bltc4a77e0f52ce07f1/linkedin.svg?q=403") no-repeat;}
+		.twitter{background:url("https://stag-static-www.elastic.co/assets/bltdd9556d6b24e2b85/twitter.svg?q=221") no-repeat;}
     
     
-      .linkedin:hover {background:url("https://static-www.elastic.co/assets/blt01ce654380e4ea6c/linkedin-hover.svg?q=403")}		
-    
-	
-    
-		.xing{background:url("https://static-www.elastic.co/assets/bltc6347078dcc9ec76/xing.svg?q=403") no-repeat;}
-    
-    
-      .xing:hover {background:url("https://static-www.elastic.co/assets/bltededebe5f7521a39/xing-hover.svg?q=403")}		
+      .twitter:hover {background:url("https://stag-static-www.elastic.co/assets/blt90b0372cc07a54d3/twitter-hover.svg?q=221")}		
     
 	
     
-		.youtube{background:url("https://static-www.elastic.co/assets/blt4982061ce1aebc7f/youtube.svg?q=403") no-repeat;}
+		.linkedin{background:url("https://stag-static-www.elastic.co/assets/bltc4a77e0f52ce07f1/linkedin.svg?q=221") no-repeat;}
     
     
-      .youtube:hover {background:url("https://static-www.elastic.co/assets/bltddeb6c6404ae81a5/youtube-hover.svg?q=403")}		
+      .linkedin:hover {background:url("https://stag-static-www.elastic.co/assets/blt01ce654380e4ea6c/linkedin-hover.svg?q=221")}		
+    
+	
+    
+		.xing{background:url("https://stag-static-www.elastic.co/assets/bltc6347078dcc9ec76/xing.svg?q=221") no-repeat;}
+    
+    
+      .xing:hover {background:url("https://stag-static-www.elastic.co/assets/bltededebe5f7521a39/xing-hover.svg?q=221")}		
+    
+	
+    
+		.youtube{background:url("https://stag-static-www.elastic.co/assets/blt4982061ce1aebc7f/youtube.svg?q=221") no-repeat;}
+    
+    
+      .youtube:hover {background:url("https://stag-static-www.elastic.co/assets/bltddeb6c6404ae81a5/youtube-hover.svg?q=221")}		
     
 	
 </style>
@@ -1064,10 +1064,10 @@ After the specified timeout, Filebeat sends the multiline event even if no new p
 	var suggestionsUrl = "https://search.elastic.co/suggest";	
 	var localeUrl = '{"relative_url_prefix":"/","code":"en-us","url":"/guide_template"}';
 </script>
-<script src="https://static-www.elastic.co/static/js/jquery.autocomplete.js?q=403"></script>
-<script type="text/javascript" src="https://static-www.elastic.co/static/js/slick.min.js?q=403"></script>
-<script src="https://static-www.elastic.co/static/js/nav-v5.js?q=403"></script>
-<script src="https://static-www.elastic.co/static/js/script.js?q=403"></script> 
+<script src="https://stag-static-www.elastic.co/static/js/jquery.autocomplete.js?q=221"></script>
+<script type="text/javascript" src="https://stag-static-www.elastic.co/static/js/slick.min.js?q=221"></script>
+<script src="https://stag-static-www.elastic.co/static/js/nav-v5.js?q=221"></script>
+<script src="https://stag-static-www.elastic.co/static/js/script.js?q=221"></script> 
      
 <script type="text/javascript">
 $(document).ready(function(){

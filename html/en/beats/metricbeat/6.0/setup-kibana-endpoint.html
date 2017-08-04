@@ -76,13 +76,13 @@
 	   
 
     <!-- css -->
-    <link href="https://static-www.elastic.co/static/css/main.css?q=403" rel="stylesheet">
+    <link href="https://stag-static-www.elastic.co/static/css/main.css?q=221" rel="stylesheet">
     
     
 
-    <script src="https://static-www.elastic.co/static/js/jquery.min.js?q=403"></script>
-    <script src="https://static-www.elastic.co/static/js/bootstrap.min.js?q=403"></script>
-    <script src="https://static-www.elastic.co/static/js/jquery.cookie.js?q=403"></script>
+    <script src="https://stag-static-www.elastic.co/static/js/jquery.min.js?q=221"></script>
+    <script src="https://stag-static-www.elastic.co/static/js/bootstrap.min.js?q=221"></script>
+    <script src="https://stag-static-www.elastic.co/static/js/jquery.cookie.js?q=221"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -127,7 +127,7 @@
 
 
 	
-	<link type="text/css" rel="stylesheet" href="https://static-www.elastic.co/static/css/guide.css?q=403" />
+	<link type="text/css" rel="stylesheet" href="https://stag-static-www.elastic.co/static/css/guide.css?q=221" />
 
 
   
@@ -204,7 +204,7 @@
           <div class="navbar-brand" id="elastic">
             <h1>
               <a class="logo-m hidden-sm hidden-md hidden-lg" href="/">
-                <img src="https://static-www.elastic.co/assets/bltd5ac38b4549d53de/elastic-logo-mobile (1).svg?q=403" alt="elastic-logo-mobile">
+                <img src="https://stag-static-www.elastic.co/assets/bltd5ac38b4549d53de/elastic-logo-mobile (1).svg?q=221" alt="elastic-logo-mobile">
               </a>
             </h1>
           </div>
@@ -270,7 +270,7 @@
       <div class="navbar-brand hidden-xs" id="elastic">
         <h1>
           <a class="hidden-xs" id="elastic-logo" href="/">
-            <img src="https://static-www.elastic.co/assets/blt6050efb80ceabd47/elastic-logo (2).svg?q=403" alt="elastic-logo">
+            <img src="https://stag-static-www.elastic.co/assets/blt6050efb80ceabd47/elastic-logo (2).svg?q=221" alt="elastic-logo">
           </a>
         </h1>
       </div>
@@ -420,24 +420,24 @@
   </div>
 </div>
 </header>
-<link rel="stylesheet" type="text/css" href="https://static-www.elastic.co/static/css/horizon-swiper.min.css?q=403">
+<link rel="stylesheet" type="text/css" href="https://stag-static-www.elastic.co/static/css/horizon-swiper.min.css?q=221">
 <style> 
     
       .m-shortcuts li a.m-search {
-        background: url("https://static-www.elastic.co/assets/blt7b9c4fe6528dc4ef/m-search-icon.png?q=403") no-repeat scroll center center rgba(0, 0, 0, 0);
+        background: url("https://stag-static-www.elastic.co/assets/blt7b9c4fe6528dc4ef/m-search-icon.png?q=221") no-repeat scroll center center rgba(0, 0, 0, 0);
         background-size: contain;}
     
       .m-shortcuts li a.m-docs {
-        background: url("https://static-www.elastic.co/assets/blt44d8b7530a76d01c/m-guide-icon.png?q=403") no-repeat scroll center center rgba(0, 0, 0, 0);
+        background: url("https://stag-static-www.elastic.co/assets/blt44d8b7530a76d01c/m-guide-icon.png?q=221") no-repeat scroll center center rgba(0, 0, 0, 0);
         background-size: contain;}
     
       .m-shortcuts li a.m-contact {
-        background: url("https://static-www.elastic.co/assets/blt878040795c9d083b/m-contact-icon.png?q=403") no-repeat scroll center center rgba(0, 0, 0, 0);
+        background: url("https://stag-static-www.elastic.co/assets/blt878040795c9d083b/m-contact-icon.png?q=221") no-repeat scroll center center rgba(0, 0, 0, 0);
         background-size: contain;}
     
     
 </style>
-<script type="text/javascript" src="https://static-www.elastic.co/static/js/horizon-swiper.min.js?q=403"></script>
+<script type="text/javascript" src="https://stag-static-www.elastic.co/static/js/horizon-swiper.min.js?q=221"></script>
 <script type="text/javascript">
   $(document).ready( function(){
     // if($('#scrollable-pane li').length > 3){
@@ -605,21 +605,21 @@ Not what you want? See the
            
           <a href="configuration-dashboards.html">Load the Kibana dashboards
                »
-            </a></span></div><div class="chapter"><div class="titlepage"><div><div><h2 class="title"><a id="setup-kibana-endpoint"></a>Set up the Kibana endpoint<a href="https://github.com/elastic/beats/edit/6.0/libbeat/docs/shared-kibana-config.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h2></div></div></div><p>Starting with Beats 6.0.0, the Kibana dashboards are loaded into Kibana
+            </a></span></div><div class="chapter"><div class="titlepage"><div><div><h2 class="title"><a id="setup-kibana-endpoint"></a>Set up the Kibana endpoint<a href="https://esdocs@github.com/elastic/beats/edit/6.0/libbeat/docs/shared-kibana-config.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h2></div></div></div><p>Starting with Beats 6.0.0, the Kibana dashboards are loaded into Kibana
 via the Kibana API. This requires a Kibana endpoint configuration.</p><p>You configure the endpoint in the <code class="literal">setup.kibana</code> section of the
-<code class="literal">metricbeat.yml</code> config file.</p><p>Here is an example configuration:</p><div class="pre_wrapper"><pre class="programlisting prettyprint lang-yaml">setup.kibana.host: "localhost:5601"</pre></div><h3><a id="_configuration_options_9"></a>Configuration options<a href="https://github.com/elastic/beats/edit/6.0/libbeat/docs/shared-kibana-config.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3><p>You can specify the following options in the <code class="literal">setup.kibana</code> section of the
-<code class="literal">metricbeat.yml</code> config file:</p><h4><a id="_literal_setup_kibana_host_literal"></a><code class="literal">setup.kibana.host</code><a href="https://github.com/elastic/beats/edit/6.0/libbeat/docs/shared-kibana-config.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h4><p>The Kibana host where the dashboards will be loaded. The default is
+<code class="literal">metricbeat.yml</code> config file.</p><p>Here is an example configuration:</p><div class="pre_wrapper"><pre class="programlisting prettyprint lang-yaml">setup.kibana.host: "localhost:5601"</pre></div><h3><a id="_configuration_options_9"></a>Configuration options<a href="https://esdocs@github.com/elastic/beats/edit/6.0/libbeat/docs/shared-kibana-config.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3><p>You can specify the following options in the <code class="literal">setup.kibana</code> section of the
+<code class="literal">metricbeat.yml</code> config file:</p><h4><a id="_literal_setup_kibana_host_literal"></a><code class="literal">setup.kibana.host</code><a href="https://esdocs@github.com/elastic/beats/edit/6.0/libbeat/docs/shared-kibana-config.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h4><p>The Kibana host where the dashboards will be loaded. The default is
 <code class="literal">127.0.0.1:5601</code>. The value of <code class="literal">host</code> can be a <code class="literal">URL</code> or <code class="literal">IP:PORT</code>. For example: <code class="literal">http://192.15.3.2</code>, <code class="literal">192:15.3.2:5601</code> or <code class="literal">http://192.15.3.2:6701/path</code>. If no
 port is specified, <code class="literal">5601</code> is used.</p><div class="note admon"><div class="icon"><img alt="Note" src="images/icons/note.png" /></div><div class="admon_content"><p>When a node is defined as an <code class="literal">IP:PORT</code>, the <span class="emphasis"><em>scheme</em></span> and <span class="emphasis"><em>path</em></span> are taken
 from the <a class="link" href="setup-kibana-endpoint.html#kibana-protocol-option" title="setup.kibana.protocoledit">setup.kibana.protocol</a> and
 <a class="link" href="setup-kibana-endpoint.html#kibana-path-option" title="setup.kibana.pathedit">setup.kibana.path</a> config options.</p></div></div><p>IPv6 addresses must be defined using the following format:
-<code class="literal">https://[2001:db8::1]:5601</code>.</p><h4><a id="kibana-protocol-option"></a><code class="literal">setup.kibana.protocol</code><a href="https://github.com/elastic/beats/edit/6.0/libbeat/docs/shared-kibana-config.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h4><p>The name of the protocol Kibana is reachable on. The options are: <code class="literal">http</code> or
+<code class="literal">https://[2001:db8::1]:5601</code>.</p><h4><a id="kibana-protocol-option"></a><code class="literal">setup.kibana.protocol</code><a href="https://esdocs@github.com/elastic/beats/edit/6.0/libbeat/docs/shared-kibana-config.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h4><p>The name of the protocol Kibana is reachable on. The options are: <code class="literal">http</code> or
 <code class="literal">https</code>. The default is <code class="literal">http</code>. However, if you specify a URL for host, the
 value of <code class="literal">protocol</code> is overridden by whatever scheme you specify in the URL.</p><p>Example config:</p><div class="pre_wrapper"><pre class="programlisting prettyprint lang-yaml">setup.kibana.host: "192.0.2.255:5601"
 setup.kibana.protocol: "https"
-setup.kibana.path: /kibana</pre></div><h4><a id="_literal_setup_kibana_username_literal"></a><code class="literal">setup.kibana.username</code><a href="https://github.com/elastic/beats/edit/6.0/libbeat/docs/shared-kibana-config.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h4><p>The basic authentication username for connecting to Kibana.</p><h4><a id="_literal_setup_kibana_password_literal"></a><code class="literal">setup.kibana.password</code><a href="https://github.com/elastic/beats/edit/6.0/libbeat/docs/shared-kibana-config.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h4><p>The basic authentication password for connecting to Elasticsearch.</p><h4><a id="kibana-path-option"></a><code class="literal">setup.kibana.path</code><a href="https://github.com/elastic/beats/edit/6.0/libbeat/docs/shared-kibana-config.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h4><p>An HTTP path prefix that is prepended to the HTTP API calls. This is useful for
+setup.kibana.path: /kibana</pre></div><h4><a id="_literal_setup_kibana_username_literal"></a><code class="literal">setup.kibana.username</code><a href="https://esdocs@github.com/elastic/beats/edit/6.0/libbeat/docs/shared-kibana-config.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h4><p>The basic authentication username for connecting to Kibana.</p><h4><a id="_literal_setup_kibana_password_literal"></a><code class="literal">setup.kibana.password</code><a href="https://esdocs@github.com/elastic/beats/edit/6.0/libbeat/docs/shared-kibana-config.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h4><p>The basic authentication password for connecting to Elasticsearch.</p><h4><a id="kibana-path-option"></a><code class="literal">setup.kibana.path</code><a href="https://esdocs@github.com/elastic/beats/edit/6.0/libbeat/docs/shared-kibana-config.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h4><p>An HTTP path prefix that is prepended to the HTTP API calls. This is useful for
 the cases where Kibana listens behind an HTTP reverse proxy that exports the API
-under a custom prefix.</p><h4><a id="_literal_setup_kibana_ssl_enabled_literal"></a><code class="literal">setup.kibana.ssl.enabled</code><a href="https://github.com/elastic/beats/edit/6.0/libbeat/docs/shared-kibana-config.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h4><p>Enables Metricbeat to use SSL settings when connecting to Kibana via HTTPS.
+under a custom prefix.</p><h4><a id="_literal_setup_kibana_ssl_enabled_literal"></a><code class="literal">setup.kibana.ssl.enabled</code><a href="https://esdocs@github.com/elastic/beats/edit/6.0/libbeat/docs/shared-kibana-config.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h4><p>Enables Metricbeat to use SSL settings when connecting to Kibana via HTTPS.
 If you configure the Beat to connect over HTTPS, this setting defaults to
 <code class="literal">true</code> and Metricbeat uses the default SSL settings.</p><p>Example configuration:</p><div class="pre_wrapper"><pre class="programlisting prettyprint lang-yaml">setup.kibana.host: "192.0.2.255:5601"
 setup.kibana.protocol: "https"
@@ -982,38 +982,38 @@ setup.kibana.ssl.key: "/etc/pki/client/cert.key</pre></div><p>See <a class="xref
 <style type="text/css">
 	
     
-		.facebook{background:url("https://static-www.elastic.co/assets/bltf546ff2e0a8f2de5/facebook.svg?q=403") no-repeat;}
+		.facebook{background:url("https://stag-static-www.elastic.co/assets/bltf546ff2e0a8f2de5/facebook.svg?q=221") no-repeat;}
     
     
-      .facebook:hover {background:url("https://static-www.elastic.co/assets/bltc24cf11c714ecfc4/facebook-hover.svg?q=403")}		
-    
-	
-    
-		.twitter{background:url("https://static-www.elastic.co/assets/bltdd9556d6b24e2b85/twitter.svg?q=403") no-repeat;}
-    
-    
-      .twitter:hover {background:url("https://static-www.elastic.co/assets/blt90b0372cc07a54d3/twitter-hover.svg?q=403")}		
+      .facebook:hover {background:url("https://stag-static-www.elastic.co/assets/bltc24cf11c714ecfc4/facebook-hover.svg?q=221")}		
     
 	
     
-		.linkedin{background:url("https://static-www.elastic.co/assets/bltc4a77e0f52ce07f1/linkedin.svg?q=403") no-repeat;}
+		.twitter{background:url("https://stag-static-www.elastic.co/assets/bltdd9556d6b24e2b85/twitter.svg?q=221") no-repeat;}
     
     
-      .linkedin:hover {background:url("https://static-www.elastic.co/assets/blt01ce654380e4ea6c/linkedin-hover.svg?q=403")}		
-    
-	
-    
-		.xing{background:url("https://static-www.elastic.co/assets/bltc6347078dcc9ec76/xing.svg?q=403") no-repeat;}
-    
-    
-      .xing:hover {background:url("https://static-www.elastic.co/assets/bltededebe5f7521a39/xing-hover.svg?q=403")}		
+      .twitter:hover {background:url("https://stag-static-www.elastic.co/assets/blt90b0372cc07a54d3/twitter-hover.svg?q=221")}		
     
 	
     
-		.youtube{background:url("https://static-www.elastic.co/assets/blt4982061ce1aebc7f/youtube.svg?q=403") no-repeat;}
+		.linkedin{background:url("https://stag-static-www.elastic.co/assets/bltc4a77e0f52ce07f1/linkedin.svg?q=221") no-repeat;}
     
     
-      .youtube:hover {background:url("https://static-www.elastic.co/assets/bltddeb6c6404ae81a5/youtube-hover.svg?q=403")}		
+      .linkedin:hover {background:url("https://stag-static-www.elastic.co/assets/blt01ce654380e4ea6c/linkedin-hover.svg?q=221")}		
+    
+	
+    
+		.xing{background:url("https://stag-static-www.elastic.co/assets/bltc6347078dcc9ec76/xing.svg?q=221") no-repeat;}
+    
+    
+      .xing:hover {background:url("https://stag-static-www.elastic.co/assets/bltededebe5f7521a39/xing-hover.svg?q=221")}		
+    
+	
+    
+		.youtube{background:url("https://stag-static-www.elastic.co/assets/blt4982061ce1aebc7f/youtube.svg?q=221") no-repeat;}
+    
+    
+      .youtube:hover {background:url("https://stag-static-www.elastic.co/assets/bltddeb6c6404ae81a5/youtube-hover.svg?q=221")}		
     
 	
 </style>
@@ -1045,10 +1045,10 @@ setup.kibana.ssl.key: "/etc/pki/client/cert.key</pre></div><p>See <a class="xref
 	var suggestionsUrl = "https://search.elastic.co/suggest";	
 	var localeUrl = '{"relative_url_prefix":"/","code":"en-us","url":"/guide_template"}';
 </script>
-<script src="https://static-www.elastic.co/static/js/jquery.autocomplete.js?q=403"></script>
-<script type="text/javascript" src="https://static-www.elastic.co/static/js/slick.min.js?q=403"></script>
-<script src="https://static-www.elastic.co/static/js/nav-v5.js?q=403"></script>
-<script src="https://static-www.elastic.co/static/js/script.js?q=403"></script> 
+<script src="https://stag-static-www.elastic.co/static/js/jquery.autocomplete.js?q=221"></script>
+<script type="text/javascript" src="https://stag-static-www.elastic.co/static/js/slick.min.js?q=221"></script>
+<script src="https://stag-static-www.elastic.co/static/js/nav-v5.js?q=221"></script>
+<script src="https://stag-static-www.elastic.co/static/js/script.js?q=221"></script> 
      
 <script type="text/javascript">
 $(document).ready(function(){
